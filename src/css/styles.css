@@ -1,0 +1,97 @@
+/**
+ * Author : Shibu Manoharan
+ * Date : 04/06/2017
+ */
+
+/* circle shape */
+.shape {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  border-radius: 50px;
+}
+
+/* square shape */
+.square {
+  top: 120px;
+  border-radius: 0px;
+  background: red;
+}
+
+/* shape objects */
+.shape1 {
+  background: red;
+  left: 0px;
+}
+
+.shape2 {
+  background: green;
+  left: 110px;
+}
+
+.shape3 {
+  background: blue;
+  left: 220px;
+}
+
+.shape4 {
+  background: orange;
+  left: 330px;
+}
+
+.shape5 {
+  background: yellow;
+  left: 440px;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    body{
+        background-color: white;
+        color: black;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* tooltip box */
+#tooltip {
+  width: 120px;
+  padding: 5px;
+  background: #ccc;
+  border-radius: 10px;
+  position: absolute;
+  display: none;
+  z-index: 1;
+  border-bottom: 1px black;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+}
+
+/* footer */
+.footer{
+    top: 220px;
+    position: absolute;
+    font-family: 'Open Sans';
+    text-align: center;
+}
